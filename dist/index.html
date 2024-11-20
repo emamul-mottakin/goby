@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOBY</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- AOS Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+
+    <!-- tailwind css  -->
+    <link rel="stylesheet" href="output.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <!-- navigaton bar -->
+      <nav class="bg-white py-5">
+        <div class="container">
+          <div class="flex justify-between items-center">
+            <!-- nav brand / logo -->
+            <div>
+              <a href="#" class="font-bold sm:text-3xl">GOBY</a>
+            </div>
+            <!-- navigaton list -->
+            <ul class="uppercase flex items-center gap-3 sm:gap-x-8">
+              <li
+                class="text-xs sm:text-base text-blue-600 font-semibold flex justify-center items-center gap-2 active:scale-95 duration-150"
+              >
+                <a href="#" class="uppercase text-center">subscribe & save</a>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+              </li>
+              <li>
+                <a href="#" class="btn-pink text-center">shop now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section
+        class="bg-[url('./img/brush.jpg')] bg-center bg-no-repeat bg-cover relative z-[1]"
+      >
+        <!-- overlay div -->
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-[#fdb5b3]/50 z-[-1]"
+        ></div>
+
+        <div class="container">
+          <div class="py-56 text-center space-y-3" data-aos="fade-in">
+            <h1 class="text-4xl sm:text-6xl font-heading uppercase">
+              brushing perfected
+            </h1>
+            <p class="font-serif text-sm sm:text-xl">
+              Goby provides an award-winning brush <br />
+              at a jaw-dropping price
+            </p>
+            <a href="#" class="btn-blue">shop now</a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- main sections -->
+    <main>
+      <section class="bg-blue-600 text-white py-8">
+        <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-y-8">
+            <div class="text-center">
+              <h2 class="capitalize font-serif">top electronic toothbrush</h2>
+              <p class="uppercase text-2xl font-heading">ask the dentist</p>
+            </div>
+            <div class="text-center">
+              <h2 class="capitalize font-serif">
+                best subscription toothbrush
+              </h2>
+              <p class="uppercase text-2xl font-heading">wirecutter</p>
+            </div>
+            <div class="text-center">
+              <h2 class="capitalize font-serif">2017 grooming</h2>
+              <p class="uppercase text-2xl font-heading">men's health</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-[url('./img/brush-2.jpg')] bg-center bg-no-repeat bg-cover relative z-[1] py-20"
+      >
+        <div class="container">
+          <div class="h-[400px] flex items-end">
+            <div data-aos="fade-up">
+              <h2 class="heading-1 font-heading">
+                maximum clean. <br />fraction of the price.
+              </h2>
+              <a href="#" class="font-sans btn-pink">shop goby</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 bg-[#f8f8f8]">
+        <div class="container">
+          <div class="flex justify-center items-center">
+            <div class="text-center max-w-[490px]">
+              <h2 class="heading-1 font-heading">
+                a healthier smile, delivered.
+              </h2>
+              <p class="font-serif text-lg">
+                Rotationally oscillating brush heads are proven to clean better.
+                by selling directly to you, we offer an award winning electric
+                toothbrush at a fraction of the price.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards section -->
+      <section class="bg-[#f8f8f8]">
+        <div class="container">
+          <div class="bg-white flex flex-wrap justify-evenly">
+            <!-- card 1 -->
+            <div
+              class="flex flex-col justify-center items-center w-[280px] h-[280px] p-10 text-center"
+            >
+              <img src="img/icon-1.png" class="rounded-full" />
+              <p class="font-heading text-xl mb-2 uppercase">subscribe</p>
+              <p class="font-serif">
+                and we'll automatically send you new brush heads.
+              </p>
+            </div>
+            <!-- card-2 -->
+            <div
+              class="flex flex-col justify-center items-center w-[280px] h-[280px] p-10 text-center"
+            >
+              <img src="img/icon-2.png" class="rounded-full" />
+              <p class="font-heading text-xl mb-2 uppercase">save $15</p>
+              <p class="font-serif">
+                on your brush kit <br />
+                when you subscribe
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="flex flex-col justify-center items-center w-[280px] h-[280px] p-10 text-center"
+            >
+              <img src="img/icon-3.png" class="rounded-full" />
+              <p class="font-heading text-xl mb-2 uppercase">cancel anytime</p>
+              <p class="font-serif">
+                or change your subscription, no questions asked.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews section -->
+      <section class="bg-[#f8f8f8]">
+        <div class="container">
+          <div
+            class="flex max-md:flex-col justify-center items-center gap-4 gap-y-8"
+          >
+            <!-- section's image -->
+            <div class="flex-1" data-aos="fade-right">
+              <img src="img/brush-close-up.png" />
+            </div>
+
+            <!-- reviews slider -->
+            <div
+              class="swiper reviewSwiper w-full flex-1 relative pb-20 md:pb-0"
+              data-aos="fade-left"
+            >
+              <div class="swiper-wrapper">
+                <!-- slide one -->
+                <div class="swiper-slide">
+                  <figure class="w-full flex-1 text-center px-14 sm:px-20">
+                    <h2 class="font-heading heading-1">the buzz on goby</h2>
+                    <blockquote>
+                      <p class="font-serif">
+                        “Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus placeat numquam eveniet dignissimos
+                        fugiat labore.”
+                      </p>
+                    </blockquote>
+                    <figcaption>
+                      <span class="uppercase text-sm font-semibold"
+                        >- vogue</span
+                      >
+                    </figcaption>
+                    <a href="#" class="btn-pink mt-4">see reviews</a>
+                  </figure>
+                </div>
+
+                <!-- slide two -->
+                <div class="swiper-slide">
+                  <figure class="w-full flex-1 text-center px-14 sm:px-20">
+                    <h2 class="font-heading heading-1">the buzz on goby</h2>
+                    <blockquote>
+                      <p class="font-serif">
+                        “Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus placeat numquam eveniet dignissimos
+                        fugiat labore.”
+                      </p>
+                    </blockquote>
+                    <figcaption>
+                      <span class="uppercase text-sm font-semibold"
+                        >- vogue</span
+                      >
+                    </figcaption>
+                    <a href="#" class="btn-pink mt-4">see reviews</a>
+                  </figure>
+                </div>
+                <!-- slide three -->
+                <div class="swiper-slide">
+                  <figure class="w-full flex-1 text-center px-14 sm:px-20">
+                    <h2 class="font-heading heading-1">the buzz on goby</h2>
+                    <blockquote>
+                      <p class="font-serif">
+                        “Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Delectus placeat numquam eveniet dignissimos
+                        fugiat labore.”
+                      </p>
+                    </blockquote>
+                    <figcaption>
+                      <span class="uppercase text-sm font-semibold"
+                        >- vogue</span
+                      >
+                    </figcaption>
+                    <a href="#" class="btn-pink mt-4">see reviews</a>
+                  </figure>
+                </div>
+              </div>
+              <button
+                class="swiper-btn-next absolute left-[5px] top-0 bottom-0 m-auto w-8 h-8 border border-gray-300 text-blue-600 bg-white rounded-full z-10 btn-blue-animate"
+              >
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button
+                class="swiper-btn-prev absolute right-[5px] top-0 bottom-0 m-auto w-8 h-8 border border-gray-300 text-blue-600 bg-white rounded-full z-10 btn-blue-animate"
+              >
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-[url('./img/feedback.jpg')] bg-center bg-no-repeat bg-cover py-20"
+      >
+        <div class="container">
+          <div class="bg-white max-w-[750px] m-auto text-center px-28 py-20">
+            <h2 class="heading-1 font-heading">goby gives back</h2>
+            <p class="mb-6 font-serif">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              neque quaerat expedita, perferendis voluptate, fugiat dolorum
+              nostrum ratione, fugit deserunt in saepe nobis culpa sint impedit
+              accusantium unde ab magni ad architecto fuga eum consequatur!
+            </p>
+            <p class="font-serif">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              neque quaerat expedita, perferendis voluptate, fugiat dolorum
+              nostrum ratione, fugit deserunt in saepe nobis culpa sint impedit
+              accusantium unde ab magni ad architecto fuga eum consequatur!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20" data-aos="fade-up">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="font-heading heading-1">#gobybram</h2>
+            <p class="font-serif">
+              See who already had their routine electrified.
+            </p>
+          </div>
+          <div
+            class="pt-10 grid max-[400px]:grid-cols-1 grid-cols-2 md:grid-cols-4 text-center justify-items-center gap-4"
+          >
+            <div class="space-y-4">
+              <img src="img/user-product-1.png" alt="@FLASHLOOD" />
+              <span class="block text-xs font-bold">@FLASHLOOD</span>
+            </div>
+            <div class="space-y-4">
+              <img src="img/user-product-2.png" alt="@THEWHIMISCALCHICK" />
+              <span class="block text-xs font-bold">@THEWHIMISCALCHICK</span>
+            </div>
+            <div class="space-y-4">
+              <img src="img/user-product-3.png" alt="@THE BLUSHEDLILY" />
+              <span class="block text-xs font-bold">@THE BLUSHEDLILY</span>
+            </div>
+            <div class="space-y-4">
+              <img src="img/user-product-4.png" alt="@ROSALIE.AGENCY" />
+              <span class="block text-xs font-bold">@ROSALIE.AGENCY</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-[#3c4f66] py-20">
+        <div class="container">
+          <div class="text-white text-center space-y-6 max-w-[440px] m-auto">
+            <h2 class="heading-1 font-heading">
+              unlimited complements. <br />
+              guranteed.
+            </h2>
+            <p>
+              If you don't love your goby with in 60 days, we'll take it back
+              for a full refund. and if at any time your goby's performance is
+              anything less than perfect, we'll replace it free of charge.
+            </p>
+            <a
+              href="#"
+              class="text-black bg-white hover:bg-gray-200 px-5 py-2 sm:px-8 sm:py-3 rounded inline-block text-xs sm:text-base uppercase"
+              >get your goby</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <a href="#" class="font-bold">&copy; GOBY</a>
+          <div class="space-x-4">
+            <a href="#" class="uppercase text-gray-500 font-semibold"
+              >Terms of service</a
+            >
+            <a href="#" class="uppercase text-gray-500 font-semibold"
+              >privacy policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".reviewSwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-btn-next",
+          prevEl: ".swiper-btn-prev",
+        },
+      });
+
+      let f = document.getElementById("footer");
+      f.addEventListener("click", () => {
+        console.log("im clilc");
+      });
+    </script>
+    <!-- AOS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
+  </body>
+</html>

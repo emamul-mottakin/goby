@@ -1,0 +1,7 @@
+@font-face {
+  font-family: heading;
+  src: url(../font/MADE-Florence-Sans.woff);
+}
+.font-heading {
+  font-family: heading;
+}/*# sourceMappingURL=style.css.map */
