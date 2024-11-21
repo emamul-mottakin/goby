@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-pink {
+  @apply text-white bg-pink-500 hover:bg-pink-600 px-5 py-2 sm:px-8 sm:py-3 rounded inline-block text-xs sm:text-base uppercase active:scale-95 duration-150;
+}
+.btn-blue {
+  @apply text-white bg-blue-600 hover:bg-blue-700 px-5 py-2 sm:px-8 sm:py-3 rounded inline-block text-xs sm:text-base uppercase active:scale-95 duration-150;
+}
+.heading-1 {
+  @apply uppercase text-2xl sm:text-3xl mb-4 lg:mb-6;
+}
+.btn-blue-animate {
+  @apply transition-all duration-200 active:ring-2 active:ring-offset-2 ring-blue-600 active:scale-90;
+}
